@@ -1,0 +1,12 @@
+# /node_modules/* and /bower_components/* ignored by default
+
+# Ignore built files except build/index.js
+# build/*
+# !build/index.js
+
+# 下面表示eslint 忽略所有 除了app， 意思是只检测app下面的文件
+/*
+!app
+
+
+# app/configs
